@@ -139,8 +139,6 @@ public class MyEsopsLogin extends Login_BaseClass {
 		System.out.println("Product " + Product);
 		String Productwithoutspace = Product.replaceAll("\\s", "");
 		String CompanyId1 = companyid.toUpperCase();
-
-			
 		// ===Open browser=====
 		fn_browserinit(browserName);
 		// =================Login=================
@@ -228,7 +226,7 @@ public class MyEsopsLogin extends Login_BaseClass {
 		test = report.startTest("close browser");
 		CloseBrowser Logout5 = new CloseBrowser();
 		Logout5.CloseBrowser1();
-	/*	// ===Open browser=====
+		// ===Open browser=====
 		fn_browserinit(browserName);
 		// =================Login=================
 		test = report.startTest("URLs");
@@ -321,7 +319,7 @@ public class MyEsopsLogin extends Login_BaseClass {
 		// ========close browser=================
 		test = report.startTest("close browser");
 		CloseBrowser Logout3 = new CloseBrowser();
-		Logout3.CloseBrowser1();*/
+		Logout3.CloseBrowser1();
 	}
 
 	/*****************************************
